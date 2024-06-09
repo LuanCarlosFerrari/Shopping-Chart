@@ -28,3 +28,29 @@ body > main .pagetitle
     display: flex;
     justify-content: center;
 }
+body> main .content
+{
+    color: whitesmoke;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead tr
+{
+    border-bottom: 3px solid #eee;
+}
+
+table thead tr th
+{
+    text-align: left;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #666;
+}
